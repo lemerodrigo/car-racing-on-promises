@@ -66,6 +66,6 @@ Promise.all(carsMonitor).then(() => {
 });
 
 // Champion.
-// Promise.race(carsMonitor).then((obj) => {
-//     console.log(obj.name + ' was the first to arrive. We have a champion! \\o/');
-// });
+Promise.race(carsMonitor).then((obj) => {
+    console.log(obj.name + ' was the first to arrive. We have a champion! \\o/');
+});
