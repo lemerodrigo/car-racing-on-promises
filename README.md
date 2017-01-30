@@ -5,7 +5,7 @@ JavaScript Promises is a powerfull tool to avoid callbacks hell and to have more
 The goal of this repo is to approach promises in a funny way and make an analogy with a racing car where:
 
 - Each car is going to make just one lap;
-- Each car is you can think as an async task that will take some time (lap time) to complete;
+- Each car is an async task that will take some time (lap time) to complete;
 - The lap time described in each car data strucutre is the time in seconds the car will take to complete the circuit.
 
 
